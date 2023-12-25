@@ -1,9 +1,14 @@
-/*
- * Write a program that gets a quantity of cents as a command-line argument.
- * The program prints how to represent this quantity using as many quarters as possible, plus the remainder in cents.
- */
 public class Coins {
-	public static void main(String[] args) {
-		// Put your code here
-	}
+    public static void main(String[] args) {
+
+        // Parsing the command line argument as an integer
+        int centsSum = Integer.parseInt(args[0]);
+
+        // Number of quarters and remaining cents calculation
+        int quarters = centsSum / 25;
+        int centsRemain = centsSum % 25;
+
+        // Display result
+        System.out.println("Use " + quarters + " quarters and " + centsRemain + " cents");
+    }
 }
