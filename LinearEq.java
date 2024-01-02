@@ -7,8 +7,7 @@ public class LinearEq {
         double c = Double.parseDouble(args[2]);
 
         // X solution
-        // #feedback: in jave it required to wrap calculation of double variable so it remain double
-        double x = ((c - b) / a);
+        double x = (c - b) / a;
 
         // Print  equation
         System.out.println(a + " * x + " + b + " = " + c);
