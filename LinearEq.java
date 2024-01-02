@@ -13,6 +13,7 @@ public class LinearEq {
         System.out.println(a + " * x + " + b + " = " + c);
         
         // Print  solution
-        System.out.println("X = " + x);
+        // #feedback: wrong printed value
+        System.out.println("x = " + x);
     }
 }
